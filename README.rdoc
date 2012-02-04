@@ -10,8 +10,8 @@ Useful when tweeting identical text repeatedly.
 
  str = 'PENTAX!'.pad(140)
 
- puts str # => PENTAX!
- str.split(//).size // 140
+ str # => PENTAX!
+ str.split(//).size # 140
 
 == Installation
 
