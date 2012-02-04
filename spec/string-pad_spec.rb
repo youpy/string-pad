@@ -6,16 +6,22 @@ describe 'String#pad' do
     'aaa あいうえお zzz'
   end
 
-  it 'should padding a string' do
-    subject.pad(30).size.should eql(30)
-    subject.pad(30).gsub(/[\u200b\u200c]/, '').size.should eql(13)
+  it 'should pad' do
+    size(subject.pad(30)).should eql(30)
+
+    # http://www.metareal.org/2007/11/18/ruby-needs-unicode-regular-expressions/
+    size(subject.pad(30).gsub(/#{"[#{[0x200b].pack('U')}#{[0x200c].pack('U')}]"}/u, '')).should eql(13)
   end
 
-  it 'should not padding if original size is longer than padding size' do
-    subject.pad(10).size.should eql(13)
+  it 'should not pad if original size is longer than padding size' do
+    size(subject.pad(10)).should eql(13)
   end
 
-  it 'should padding left' do
+  it 'should pad left' do
     subject.pad(30).split(//).first.should_not eql('a')
+  end
+
+  def size(str)
+    str.split(//).size
   end
 end
