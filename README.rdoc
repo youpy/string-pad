@@ -1,6 +1,8 @@
 = ruby-string-pad
 
-Description goes here.
+Creates a new string by concatenating enough leading zero-width pad characters to an original string to achieve a specified total length.
+
+Useful when tweeting identical text repeatedly.
 
 == Contributing to ruby-string-pad
  
