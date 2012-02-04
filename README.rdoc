@@ -1,10 +1,10 @@
-= ruby-string-pad
+= string-pad
 
 Creates a new string by concatenating enough leading zero-width pad characters to an original string to achieve a specified total length.
 
 Useful when tweeting identical text repeatedly.
 
-== Contributing to ruby-string-pad
+== Contributing to string-pad
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.

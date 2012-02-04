@@ -14,8 +14,8 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "ruby-string-pad"
-  gem.homepage = "http://github.com/youpy/ruby-string-pad"
+  gem.name = "string-pad"
+  gem.homepage = "http://github.com/youpy/string-pad"
   gem.license = "MIT"
   gem.summary = %Q{A Ruby library to padding a string}
   gem.description = %Q{Creates a new string by concatenating enough leading zero-width pad characters to an original string to achieve a specified total length.}
@@ -38,7 +38,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "ruby-string-pad #{version}"
+  rdoc.title = "string-pad #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
