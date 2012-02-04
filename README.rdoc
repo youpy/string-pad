@@ -4,6 +4,19 @@ Creates a new string by concatenating enough leading zero-width pad characters t
 
 Useful when tweeting identical text repeatedly.
 
+== Synopsis
+
+ require 'string/pad'
+
+ str = 'PENTAX!'.pad(140)
+
+ puts str # => PENTAX!
+ str.split(//).size // 140
+
+== Installation
+
+ gem install string-pad
+
 == Contributing to string-pad
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
