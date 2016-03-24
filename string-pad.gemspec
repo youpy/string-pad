@@ -29,7 +29,8 @@ Gem::Specification.new do |s|
     "VERSION",
     "lib/string/pad.rb",
     "spec/spec_helper.rb",
-    "spec/string-pad_spec.rb"
+    "spec/string-pad_spec.rb",
+    "string-pad.gemspec"
   ]
   s.homepage = "http://github.com/youpy/string-pad"
   s.licenses = ["MIT"]
