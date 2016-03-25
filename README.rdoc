@@ -1,4 +1,4 @@
-= string-pad
+= string-pad {<img src="https://travis-ci.org/youpy/string-pad.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/youpy/string-pad]
 
 Creates a new string by concatenating enough leading zero-width pad characters to an original string to achieve a specified total length.
 
