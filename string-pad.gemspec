@@ -16,4 +16,5 @@ Gem::Specification.new do |gem|
 
   gem.add_development_dependency(%q<rspec>, ["~> 2.8.0"])
   gem.add_development_dependency(%q<rdoc>, ["~> 3.12"])
+  gem.add_development_dependency('rake')
 end
