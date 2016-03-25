@@ -4,7 +4,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["youpy"]
   gem.email         = ["youpy@buycheapviagraonlinenow.com"]
   gem.description   = "Creates a new string by concatenating enough leading zero-width pad characters to an original string to achieve a specified total length."
-  gem.summary       = "Creates a new string by concatenating enough leading zero-width pad characters to an original string to achieve a specified total length."
+  gem.summary       = gem.description
   gem.homepage      = "http://github.com/youpy/string-pad"
 
   gem.files         = `git ls-files`.split("\n")
