@@ -48,3 +48,6 @@ pkg
 
 # For rubinius:
 #*.rbc
+
+# for bundler
+Gemfile.lock
